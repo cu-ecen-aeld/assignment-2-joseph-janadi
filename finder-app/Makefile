@@ -1,5 +1,5 @@
-CC = $(CROSS_COMPILE)gcc
-CFLAGS = -Wall
+CC := $(CROSS_COMPILE)gcc
+CFLAGS := -Wall
 
 writer: writer.o
 	$(CC) $(CFLAGS) $^ -o $@
