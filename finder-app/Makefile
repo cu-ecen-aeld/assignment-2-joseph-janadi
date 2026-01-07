@@ -8,4 +8,4 @@ writer: writer.o
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm *.o writer
+	rm -f *.o writer
